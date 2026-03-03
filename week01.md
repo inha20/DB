@@ -6,11 +6,6 @@
 ➜ MySQL ; // 초보자용.<br>
 ➜ postgreSQL ; // 포트폴리오용.<br>
 </details>
-<details><summary>
-한 줄 요약
-</summary>
-https://github.com/inha20/IOT_Class_review-/issues/5
-</details>
 
 
 > 문법 연관성
