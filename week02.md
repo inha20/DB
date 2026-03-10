@@ -1,9 +1,10 @@
-# 예시 문법
+# SELECT문
 >단락
-<details><summary한 줄 요약
+<details><summary> SELECT * FROM dbstudents (WHERE 조건)
+
 </summary>
-➜ 항목1 ; // 설명1.<br>
-➜ 항목2 ; // 설명2.<br>
+➜ dbstudents 테이블의 조건에 맞는 모든 행과 모든 컬럼을 반환합니다.<br>
+
 </details>
 <details><summary>
 한 줄 요약
