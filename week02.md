@@ -38,6 +38,7 @@ create table dbstudent (
 <details><summary>
 선행3
 </summary>
+	
 	```SQL
 	
 insert into dbstudent (department, student_number, name, grade,  cell_phone, email) 
