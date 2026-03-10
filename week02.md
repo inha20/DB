@@ -87,7 +87,7 @@ ctrl / 다중주석
 ➜ SELECT avg.grade ; // max, min <br>
 </details>
 <details><summary>
-SELECT 칼럼명 AS [새 칼럼명], 칼럼명 AS [새 칼럼명] (WHERE 조건)
+SELECT 칼럼명 AS '새 칼럼명", 칼럼명 AS 새 칼럼명 (WHERE 조건)
 </summary>
 FROM 생략은 하나의 셀 안에서만
 </details>
