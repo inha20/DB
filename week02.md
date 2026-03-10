@@ -38,6 +38,7 @@ create table dbstudent (
 <details><summary>
 선행3
 </summary>
+	```SQL
 insert into dbstudent (department, student_number, name, grade,  cell_phone, email) 
 values	('정보통신공학과', 202633024, '김태우', 1, '010-2487-4727', 'qustkd@naver.com'),
 	('컴퓨터정보공학과', 202533027, '조은호', 2, '010-9048-0317', 'ehcho@hanmail.net'),
@@ -51,6 +52,7 @@ values	('정보통신공학과', 202633024, '김태우', 1, '010-2487-4727', 'qu
 	('디지털마케팅공학과', 202533012, '김아름', 2, '010-2048-0307', 'alkim@hanmail.net'),
 	('전기공학과', 202533002, '최진기', 2, '010-8606-4151', 'jkchoi@naver.com'),
 	('항공운항과', 202633038, '허준', 2, null, 'jh01@naver.com');
+	```
 </details>
 
 
