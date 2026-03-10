@@ -7,7 +7,7 @@
 <table>
 <thead><tr><th>연산자</th><th>설명</th></tr></thead>
 <tbody><tr><td>>=, <>, !=, !<</td><td></td></tr>
-        <tr><td>AND, OR, NOT</td></tr>
+        <tr><td>AND, OR, NOT</td><td></td></tr>
         <tr><td>BETWEEN</td><td>BETWEEN a AND b</td></tr>
         <tr><td>LIKE</td><td></td></tr>
         <tr><td>IN</td><td></td></tr>
