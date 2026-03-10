@@ -4,7 +4,9 @@
 <details><summary>
 선행1
 </summary>
+```
 use class_a;
+```
 </details>
 
 
