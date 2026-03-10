@@ -1,5 +1,5 @@
 # SELECT문
->단락
+> 1회기
 <details><summary> SELECT * FROM dbstudents (WHERE 조건)
 
 </summary>
@@ -12,24 +12,30 @@
         <tr><td>LIKE</td><td>'김%'</td></tr>
         <tr><td>IN</td><td>IN(1,3) !=2</td></tr>
         <tr><td>EXISTS</td><td></td></tr>
+        <tr><td>IS NULL</td><td></td></tr>
 </tbody>
 </table>
 </details>
 <details><summary>
-한 줄 요약
+SELECT 칼럼명 AS [새 칼럼명], 칼럼명 AS [새 칼럼명] (WHERE 조건)
 </summary>
-https://github.com/inha20/IOT_Class_review-/issues/5
+ASC
+</details>
+
+<details><summary>
+SELECT 칼럼명 (WHERE 조건) ORDER BY 정렬칼럼명 DESC
+</summary>
+
 </details>
 
 
-> 단락
-
-
-<details><summary>한 줄 요약
+<details><summary>
+SELECT 칼럼명 (WHERE 조건) GROUP BY SELECT 분류기준
 </summary>
-➜ 항목1 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;⤷ 설명1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;⤷ 특정 부분 1 ; // 설명2<br>
-&nbsp;&nbsp;&nbsp;&nbsp;⤷ 특정 부분 2 ; // 설명3<br>
-➜항목2 <br>
+SELECT grade AS 학년, count(*) AS 학생수 
+FROM dbstudents 
+GROUP BY grade
 </details>
+
+
+
