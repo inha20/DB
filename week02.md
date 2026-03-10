@@ -89,7 +89,7 @@ ctrl / 다중주석
 <details><summary>
 SELECT 칼럼명 AS 새칼럼명, 칼럼명 AS 새칼럼명 (WHERE 조건)
 </summary>
-FROM 생략은 하나의 셀 안에서만
+FROM 생략은 하나의 셀 안에서도 불가.
 </details>
 
 <details><summary>
