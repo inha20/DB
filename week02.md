@@ -7,9 +7,11 @@
 <table>
 <thead><tr><th>연산자</th><th>설명</th></tr></thead>
 <tbody><tr><td>>=, <>, !=, !<</td><td></td></tr>
-        <tr><td>Read</td><td>읽기, 검색</td><td>SELECT</td><td>GET</td></tr>
-        <tr><td>Update</td><td>수정</td><td>Update</td><td>Put, Patch</td></tr>
-        <tr><td>Delete</td><td>삭제</td><td>Delete</td><td>Delete</td></tr>
+        <tr><td>AND, OR, NOT</td></tr>
+        <tr><td>BETWEEN</td><td>BETWEEN a AND b</td></tr>
+        <tr><td>LIKE</td><td></td></tr>
+        <tr><td>IN</td><td></td></tr>
+        <tr><td>EXISTS</td><td></td></tr>
 </tbody>
 </table>
 </details>
