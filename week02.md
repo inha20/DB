@@ -1,5 +1,13 @@
 # 1 sheet
 > SELECT문
+
+<details><summary>
+조작
+</summary>
+-- 주석
+ctrl / 다중주석
+</details>
+
 <details><summary> SELECT * FROM dbstudents (WHERE 조건)
 
 </summary>
