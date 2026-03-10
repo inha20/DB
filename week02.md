@@ -84,6 +84,7 @@ ctrl / 다중주석
         <tr><td>IS NULL</td><td></td></tr>
 </tbody>
 </table>
+➜ SELECT avg.grade ; // max, min <br>
 </details>
 <details><summary>
 SELECT 칼럼명 AS [새 칼럼명], 칼럼명 AS [새 칼럼명] (WHERE 조건)
