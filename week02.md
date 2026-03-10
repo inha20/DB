@@ -19,13 +19,13 @@
 <details><summary>
 SELECT 칼럼명 AS [새 칼럼명], 칼럼명 AS [새 칼럼명] (WHERE 조건)
 </summary>
-ASC
+FROM 생략은 하나의 셀 안에서만
 </details>
 
 <details><summary>
 SELECT 칼럼명 (WHERE 조건) ORDER BY 정렬칼럼명 DESC
 </summary>
-
+ASC
 </details>
 
 
