@@ -65,7 +65,7 @@ values	('정보통신공학과', 202633024, '김태우', 1, '010-2487-4727', 'qu
 <details><summary>
 조작
 </summary>
--- 주석
+-- 주석 <br>
 ctrl / 다중주석
 </details>
 
