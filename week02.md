@@ -18,6 +18,9 @@ use class_a;
 <details><summary>
 선행2
 </summary>
+
+```SQL
+
 create table dbstudent (
 	department varchar(50) not null,
     student_number INT primary key,
@@ -26,6 +29,7 @@ create table dbstudent (
     cell_phone varchar(20),
     email varchar(50)
 );
+```
 </details>
 
 
