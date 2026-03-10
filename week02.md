@@ -1,5 +1,5 @@
-# SELECT문
-> 1회기
+# 1 sheet
+> SELECT문
 <details><summary> SELECT * FROM dbstudents (WHERE 조건)
 
 </summary>
