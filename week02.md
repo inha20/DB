@@ -159,17 +159,23 @@ GROUP BY grade
 > UPDATE문
 
 <details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
+UPDATE 테이블명 SET 칼럼1=값1, 칼럼2=값2 WHERE 조건;
 </summary>
 SELECT grade AS 학년, count(*) AS 학생수 
 FROM dbstudents 
 GROUP BY grade
 </details>
-
+<details><summary>
+추가설정
+</summary>
+SELECT grade AS 학년, count(*) AS 학생수 
+FROM dbstudents 
+GROUP BY grade
+</details>
 > DELETE문
 
 <details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
+DELETE FROM 테이블명 WHERE 조건;
 </summary>
 SELECT grade AS 학년, count(*) AS 학생수 
 FROM dbstudents 
