@@ -78,7 +78,7 @@ ctrl / 다중주석
 <tbody><tr><td>>=, <>, !=, !<</td><td>NULL은 못찾아</td></tr>
         <tr><td>AND, OR, NOT</td><td></td></tr>
         <tr><td>BETWEEN</td><td>BETWEEN a AND b</td></tr>
-        <tr><td>LIKE</td><td>'김%'</td></tr>
+        <tr><td>LIKE</td><td>'김%', '%hanmail.net'</td></tr>
         <tr><td>IN</td><td>IN(1,3)&nbsp;&nbsp;&nbsp;&nbsp;!=2</td></tr>
         <tr><td>EXISTS</td><td></td></tr>
         <tr><td>IS NULL</td><td></td></tr>
