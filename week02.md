@@ -141,8 +141,6 @@ select문에서 검색한 것을 insert로 복제한다. <br>
 <details><summary>
 DB 핸들링
 </summary>
-select문에서 검색한 것을 insert로 복제한다. <br>
-더 작게 복제할 때 쓴다. 더 크게는 쓰레기값 땜에 안함. <br>
 이후 파라미터 조작에서 values ?, ?, ? 으로 작성 후 반복문으로 DB에 데이터 넣음.
 </details>
 
