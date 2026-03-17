@@ -133,7 +133,8 @@ INSERT INTO dbstudent2 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , 
 <details><summary>
 INSERT INTO dbstudent2 ( , , , , ) SELECT ( , , , , ) FROM dbstudent WHERE 조건;
 </summary>
-select문에서 검색한 것을 insert로 복제한다.
+select문에서 검색한 것을 insert로 복제한다. <br>
+더 작게 복제할 때 쓴다. 더 크게는 쓰레기값 땜에 안함.
 </details>
 
 > UPDATE문
