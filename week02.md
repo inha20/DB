@@ -120,18 +120,16 @@ GROUP BY grade
 
 > INSERT문
 
-<details>
+
 INSERT INTO 테이블명 VALUES ( , , , , );
 
-</details>
-<details>
+
 INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , );
 
-</details>
-<details>
+
 INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , );
 
-</details>
+
 <details><summary>
 INSERT INTO 테이블명 ( , , , , ) SELECT ( , , , , ) FROM 원본테이블 WHERE 조건;
 </summary>
