@@ -133,9 +133,7 @@ INSERT INTO dbstudent2 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , 
 <details><summary>
 INSERT INTO dbstudent2 ( , , , , ) SELECT ( , , , , ) FROM dbstudent WHERE 조건;
 </summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
+select문에서 검색한 것을 insert로 복제한다.
 </details>
 
 > UPDATE문
