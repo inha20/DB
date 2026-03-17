@@ -119,6 +119,7 @@ GROUP BY grade
 
 
 > INSERT문
+
 <details><summary>
 SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
 </summary>
@@ -132,7 +133,9 @@ SELECT grade AS 학년, count(*) AS 학생수
 FROM dbstudents 
 GROUP BY grade
 </details>
+
 > UPDATE문
+
 <details><summary>
 SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
 </summary>
@@ -140,7 +143,9 @@ SELECT grade AS 학년, count(*) AS 학생수
 FROM dbstudents 
 GROUP BY grade
 </details>
+
 > DELETE문
+
 <details><summary>
 SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
 </summary>
