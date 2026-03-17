@@ -75,7 +75,7 @@ ctrl / 다중주석
 ➜ dbstudents 테이블의 조건에 맞는 모든 행과 모든 컬럼을 반환합니다.<br>
 <table>
 <thead><tr><th>연산자</th><th>설명</th></tr></thead>
-<tbody><tr><td>>=, <>, !=, !<</td><td></td></tr>
+<tbody><tr><td>>=, <>, !=, !<</td><td>NULL은 못찾아</td></tr>
         <tr><td>AND, OR, NOT</td><td></td></tr>
         <tr><td>BETWEEN</td><td>BETWEEN a AND b</td></tr>
         <tr><td>LIKE</td><td>'김%'</td></tr>
