@@ -121,13 +121,13 @@ GROUP BY grade
 > INSERT문
 
 
-INSERT INTO 테이블명 VALUES ( , , , , );
+INSERT INTO dbstudent2 VALUES ( , , , , );
 
 
-INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , );
+INSERT INTO dbstudent2 ( , , , , ) VALUES ( , , , , );
 
 
-INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , );
+INSERT INTO dbstudent2 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , );
 
 
 <details><summary>
