@@ -121,13 +121,28 @@ GROUP BY grade
 > INSERT문
 
 <details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
+INSERT INTO 테이블명 VALUES ( , , , , );
 </summary>
 SELECT grade AS 학년, count(*) AS 학생수 
 FROM dbstudents 
 GROUP BY grade
-</details><details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
+</details>
+<details><summary>
+INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , )
+</summary>
+SELECT grade AS 학년, count(*) AS 학생수 
+FROM dbstudents 
+GROUP BY grade
+</details>
+<details><summary>
+INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , );
+</summary>
+SELECT grade AS 학년, count(*) AS 학생수 
+FROM dbstudents 
+GROUP BY grade
+</details>
+<details><summary>
+INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , );
 </summary>
 SELECT grade AS 학년, count(*) AS 학생수 
 FROM dbstudents 
