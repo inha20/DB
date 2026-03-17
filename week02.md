@@ -131,7 +131,7 @@ INSERT INTO dbstudent2 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , 
 
 
 <details><summary>
-INSERT INTO dbstudent2 ( , , , , ) SELECT ( , , , , ) FROM 원본테이블 WHERE 조건;
+INSERT INTO dbstudent2 ( , , , , ) SELECT ( , , , , ) FROM dbstudent WHERE 조건;
 </summary>
 SELECT grade AS 학년, count(*) AS 학생수 
 FROM dbstudents 
