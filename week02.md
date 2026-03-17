@@ -120,26 +120,17 @@ GROUP BY grade
 
 > INSERT문
 
-<details><summary>
+<details>
 INSERT INTO 테이블명 VALUES ( , , , , );
-</summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
+
 </details>
-<details><summary>
+<details>
 INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , );
-</summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
+
 </details>
-<details><summary>
+<details>
 INSERT INTO 테이블명 ( , , , , ) VALUES ( , , , , ),  ( , , , , ),  ( , , , , );
-</summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
+
 </details>
 <details><summary>
 INSERT INTO 테이블명 ( , , , , ) SELECT ( , , , , ) FROM 원본테이블 WHERE 조건;
