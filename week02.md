@@ -148,6 +148,7 @@ DB 핸들링
 
 > UPDATE문
 
+
 <details><summary>
 UPDATE 테이블명 SET 칼럼1=값1, 칼럼2=값2 WHERE 조건;
 </summary>
