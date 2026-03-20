@@ -163,6 +163,8 @@ SELECT grade AS 학년, count(*) AS 학생수
 FROM dbstudents 
 GROUP BY grade
 </details>
+
+
 > DELETE문
 
 <details><summary>
