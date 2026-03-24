@@ -1,6 +1,5 @@
  # 2 sheet
 
- # 1 sheet
 > SELECT문
 
 <details><summary>
