@@ -59,51 +59,11 @@ SELECT a.division_name, b.emp_name, b.emp_position FROM division a INNER JOIN em
 <details><summary> 
 SELECT (a. , b. , a. ) FROM division a LEFT OUTER JOIN employee b ON (JOIN조건) where (검색조건);
 </summary>
-SELECT * 
-FROM division a 
-LEFT OUTER JOIN employee b 
-	ON a.division_code=b.division_code;
-<table>
-<thead><tr><th>연산자</th><th>설명</th></tr></thead>
-<tbody><tr><td>>=, <>, !=, !<</td><td>NULL은 못찾아</td></tr>
-        <tr><td>AND, OR, NOT</td><td></td></tr>
-        <tr><td>BETWEEN</td><td>BETWEEN a AND b</td></tr>
-        <tr><td>LIKE</td><td>'김%', '%hanmail.net'</td></tr>
-        <tr><td>IN</td><td>IN(1,3)&nbsp;&nbsp;&nbsp;&nbsp;!=2</td></tr>
-        <tr><td>EXISTS</td><td></td></tr>
-        <tr><td>IS NULL</td><td></td></tr>
-</tbody>
-</table>
-➜ SELECT avg.grade ; // max, min <br>
+SELECT * FROM division a LEFT OUTER JOIN employee b ON a.division_code=b.division_code;
 </details>
-<details><summary>
-SELECT 칼럼명 AS 새칼럼명, 칼럼명 AS 새칼럼명 FROM dbstudents (WHERE 조건)
+<details><summary> 
+LEFT JOIN UNION RIGHT JOIN 하면 FULL JOIN.
 </summary>
-FROM 생략은 하나의 셀 안에서도 불가.
-</details>
-
-<details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건)  ORDER BY 정렬칼럼명 DESC
-</summary>
-ASC
-</details>
-
-
-<details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준
-</summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
-</details>
-
-
-<details><summary>
-SELECT 칼럼명 FROM dbstudents (WHERE 조건) GROUP BY SELECT 분류기준 ORDER BY 정렬칼럼명
-</summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
 </details>
 
 
