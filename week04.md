@@ -39,19 +39,9 @@ create table employee (
 	
 ```SQL
 	
-insert into dbstudent (department, student_number, name, grade,  cell_phone, email) 
-values	('정보통신공학과', 202633024, '김태우', 1, '010-2487-4727', 'qustkd@naver.com'),
-	('컴퓨터정보공학과', 202533027, '조은호', 2, '010-9048-0317', 'ehcho@hanmail.net'),
-	('컴퓨터정보공학과', 202433006, '황정하', 3, '010-3606-4256', 'jhh@naver.com'),
-	('컴퓨터정보공학과', 202533039, '최진영', 1, null, 'jychoi@naver.com'),
-	('컴퓨터정보공학과', 202533033, '이상선', 2, '010-1487-4770', 'sslee@naver.com'),
-	('컴퓨터정보공학과', 202433026, '박주봉', 3, '010-0048-0312', 'kbpark@hanmail.net'),
-	('정보통신공학과', 202633007, '이지은', 1, '010-5606-4251', 'jelee@naver.com'),
-	('정보통신공학과', 202533022, '김동주', 2, null, 'djkim@naver.com'),
-	('컴퓨터시스템공학과', 202433019, '박성수', 3, '010-x487-4722', 'sspark@naver.com'),
-	('디지털마케팅공학과', 202533012, '김아름', 2, '010-2048-0307', 'alkim@hanmail.net'),
-	('전기공학과', 202533002, '최진기', 2, '010-8606-4151', 'jkchoi@naver.com'),
-	('항공운항과', 202633038, '허준', 2, null, 'jh01@naver.com');
+insert into employee (emp_name, division_code, emp_position) values 
+	('홍길동', "1111","사원"), ("이기자","1111", "과장"), ("최전식", "1112", "부장"),
+    ("강감찬", "1112", "대리"), ("이아름", "1113", "부장"), ("김소연", "1113", "차장");
 	
 ```
 </details>
@@ -61,10 +51,9 @@ values	('정보통신공학과', 202633024, '김태우', 1, '010-2487-4727', 'qu
 
 
 <details><summary>
-조작
+SELECT (a. , b. , a. ) FROM division a INNER JOIN employee b ON (JOIN조건) where (검색조건)
 </summary>
--- 주석 <br>
-ctrl / 다중주석
+SELECT a.division_name, b.emp_name, b.emp_position FROM division a INNER JOIN employee b ON a.division_code=b.division_code where a.division_code="1112"
 </details>
 
 <details><summary> SELECT * FROM dbstudents (WHERE 조건)
