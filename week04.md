@@ -5,7 +5,8 @@
 <details><summary>
 JOIN과 테이블
 </summary>	
-공통 칼럼으로 연결하는 것.
+➜ 공통 칼럼으로 연결하는 것. 이름이 달라도 되지만 Typs과 Size는 같아야됨.<br>
+➜ 내부,외부,풀,재귀 의 종류가 있음. 기본값은 내부join.<br>
 </details>
 
 
