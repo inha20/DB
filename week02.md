@@ -154,6 +154,7 @@ UPDATE 테이블명 SET 칼럼1=값1, 칼럼2=값2 WHERE 조건;
 </summary>
 select * from dbstudent where student_number="202433019"; // primary key로 하나만 조회 먼저<br>
 UPDATE dbstudent SET cell_phone="010-3487-4722" WHERE student_number="202433019";
+</details>
 <details><summary>
 추가설정
 </summary>
