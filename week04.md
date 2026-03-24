@@ -57,7 +57,7 @@ SELECT a.division_name, b.emp_name, b.emp_position FROM division a INNER JOIN em
 </details>
 
 <details><summary> 
-SELECT (a. , b. , a. ) FROM division a left INNER JOIN employee b ON (JOIN조건) where (검색조건);
+SELECT (a. , b. , a. ) FROM division a LEFT OUTER JOIN employee b ON (JOIN조건) where (검색조건);
 </summary>
 SELECT * 
 FROM division a 
