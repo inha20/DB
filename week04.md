@@ -3,15 +3,9 @@
 > JOIN문
 
 <details><summary>
-선행1
-</summary>
-	
-```SQL
-
-use class_a;
-
-```
-
+JOIN과 테이블
+</summary>	
+공통 칼럼으로 연결하는 것.
 </details>
 
 
