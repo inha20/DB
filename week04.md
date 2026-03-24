@@ -34,7 +34,7 @@ create table employee (
 
 
 <details><summary>
-선행3
+복습
 </summary>
 	
 ```SQL
@@ -51,15 +51,18 @@ insert into employee (emp_name, division_code, emp_position) values
 
 
 <details><summary>
-SELECT (a. , b. , a. ) FROM division a INNER JOIN employee b ON (JOIN조건) where (검색조건)
+SELECT (a. , b. , a. ) FROM division a INNER JOIN employee b ON (JOIN조건) where (검색조건);
 </summary>
-SELECT a.division_name, b.emp_name, b.emp_position FROM division a INNER JOIN employee b ON a.division_code=b.division_code where a.division_code="1112"
+SELECT a.division_name, b.emp_name, b.emp_position FROM division a INNER JOIN employee b ON a.division_code=b.division_code where a.division_code="1112";
 </details>
 
-<details><summary> SELECT * FROM dbstudents (WHERE 조건)
-
+<details><summary> 
+SELECT (a. , b. , a. ) FROM division a left INNER JOIN employee b ON (JOIN조건) where (검색조건);
 </summary>
-➜ dbstudents 테이블의 조건에 맞는 모든 행과 모든 컬럼을 반환합니다.<br>
+SELECT * 
+FROM division a 
+LEFT OUTER JOIN employee b 
+	ON a.division_code=b.division_code;
 <table>
 <thead><tr><th>연산자</th><th>설명</th></tr></thead>
 <tbody><tr><td>>=, <>, !=, !<</td><td>NULL은 못찾아</td></tr>
