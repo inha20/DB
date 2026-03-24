@@ -152,16 +152,12 @@ DB 핸들링
 <details><summary>
 UPDATE 테이블명 SET 칼럼1=값1, 칼럼2=값2 WHERE 조건;
 </summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
-</details>
+select * from dbstudent where student_number="202433019"; // primary key로 하나만 조회 먼저<br>
+UPDATE dbstudent SET cell_phone="010-3487-4722" WHERE student_number="202433019";
 <details><summary>
 추가설정
 </summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
+톱니바퀴 - SQL Editor - Safe Updates 해제
 </details>
 
 
