@@ -159,7 +159,8 @@ UPDATE dbstudent SET cell_phone="010-3487-4722" WHERE student_number="202433019"
 추가설정
 </summary>
 톱니바퀴 - SQL Editor - Safe Updates 해제 - 재접속 <br>
-set sql_safe_updates =0;
+set sql_safe_updates =0;<br>
+단순 변경은 상관없어, null값 왔다갔다는 필요.
 </details>
 
 
