@@ -168,9 +168,8 @@ set sql_safe_updates =0;
 <details><summary>
 DELETE FROM 테이블명 WHERE 조건;
 </summary>
-SELECT grade AS 학년, count(*) AS 학생수 
-FROM dbstudents 
-GROUP BY grade
+select * from dbstudent where grade=3; <br>
+delete from dbstudent where grade=3;
 </details>
 
 
