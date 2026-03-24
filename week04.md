@@ -1,6 +1,6 @@
  # 2 sheet
 
-> SELECT문
+> JOIN문
 
 <details><summary>
 선행1
@@ -119,7 +119,7 @@ GROUP BY grade
 
 
 
-> INSERT문
+> SubQuery
 
 
 INSERT INTO dbstudent2 VALUES ( , , , , );
