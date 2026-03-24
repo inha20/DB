@@ -12,18 +12,20 @@ JOIN과 테이블
 
 
 <details><summary>
-선행2
+선행
 </summary>
 
 ```SQL
+create table division (
+	division_code char(4) primary key,
+    division_name varchar(30)
+);
 
-create table dbstudent (
-	department varchar(50) not null,
-    student_number INT primary key,
-    name varchar(20) not null,
-    grade int,
-    cell_phone varchar(20),
-    email varchar(50)
+create table employee (
+	emp_no int auto_increment primary key,
+    emp_name varchar(30),
+    division_code char(4),
+    emp_position varchar(30)
 );
 ```
 </details>
