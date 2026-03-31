@@ -89,3 +89,11 @@ select a.emp_no, a.emp_name, b.division_name from employee a
 inner join division b on a.division_code =  b.division_code
 where b.division_code=1111;
 </details>
+
+<details><summary> 
+예제2
+</summary>
+select a.emp_no, a.emp_name, b.division_name from employee a 
+inner join division b on a.division_code =  b.division_code
+where b.division_code=1111;
+</details>
