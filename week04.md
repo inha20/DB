@@ -74,3 +74,10 @@ select count(*) from division CROSS JOIN employee;
 
 
 > SubQuery
+
+<details><summary> 
+개론
+</summary>
+하나의 칼럼값은 =로, 여러개의 칼럼값은 in으로. <br>
+where 칼럼명 () (select 구문) 등으로 쓰임.
+</details>
