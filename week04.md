@@ -83,7 +83,7 @@ where 칼럼명 () (select 구문).
 </details>
 
 <details><summary> 
-예제1
+예제1.
 </summary>
 select a.emp_no, a.emp_name, b.division_name from employee a 
 inner join division b on a.division_code =  b.division_code
@@ -91,9 +91,7 @@ where b.division_code=1111;
 </details>
 
 <details><summary> 
-예제2
+예제2. IS NULL, DISTINCT
 </summary>
-select a.emp_no, a.emp_name, b.division_name from employee a 
-inner join division b on a.division_code =  b.division_code
-where b.division_code=1111;
+select a.division_code, a.division_name from division a left join employee b on a.division_code=b.division_code where b.division_code is null;
 </details>
