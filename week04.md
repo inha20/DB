@@ -65,9 +65,9 @@ SELECT * FROM division a LEFT OUTER JOIN employee b ON a.division_code=b.divisio
 LEFT JOIN UNION RIGHT JOIN 하면 FULL JOIN.
 
 <details><summary> 
-SELECT (a. , b. , a. ) FROM division a LEFT OUTER JOIN employee b ON (JOIN조건) where (검색조건);
+SELECT (a. as, b. as, a. as) FROM division a JOIN division b ON (JOIN조건) where (검색조건);
 </summary>
-SELECT * FROM division a LEFT OUTER JOIN employee b ON a.division_code=b.division_code;
+select b.emp_no as 사원번호, b.emp_name as 이름, a.emp_name as 매니저 from division_self a join division_self b where a.emp_no=b.mgr_no
 </details>
 
 > SubQuery
