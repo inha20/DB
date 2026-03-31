@@ -70,7 +70,7 @@ SELECT (a. as, b. as, a. as) FROM division a JOIN division b ON (JOIN조건) whe
 select b.emp_no as 사원번호, b.emp_name as 이름, a.emp_name as 매니저 from division_self a join division_self b where a.emp_no=b.mgr_no
 </details>
 
-select * from division CROSS JOIN employee;
+select count(*) from division CROSS JOIN employee;
 
 
 > SubQuery
