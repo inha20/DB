@@ -11,7 +11,11 @@
 <details><summary>
 내보내기
 </summary>
-https://github.com/inha20/IOT_Class_review-/issues/5
+select * from dbstudent<br>
+into outfile "C:/Users/PC/dbstudent.csv"<br>
+fields terminated by ","<br>
+enclosed by '"'<br>
+lines terminated by "\n"
 </details>
 
 
