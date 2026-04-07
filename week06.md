@@ -21,7 +21,7 @@ lines terminated by "\n";<br>
 <details><summary>
 불러오기
 </summary>
-load data infile "C:/ProgramData/MySQL/MySQL Server <br>8.0/Uploads/dbstudent.csv"<br>
+load data infile "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/dbstudent.csv"<br>
 into table dbstudent<br>
 fields terminated by ","<br>
 enclosed by '"'<br>
