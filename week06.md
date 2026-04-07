@@ -6,6 +6,7 @@
 ➜ alter table user add gender char(1) after name; // 테이블에 칼럼 추가.<br>
 ➜ alter table user change phone phone_number varchar(20); // 칼럼명, 형식 변경.<br>
 ➜ alter table user change gender gender enum("M", "F"); // 형식 변경 - 항목 제한.<br>
+➜ drop table user; truncate table user; // 삭제하기, 내용 버리기.<br>
 </details>
 <details><summary>
 한 줄 요약
