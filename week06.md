@@ -17,7 +17,7 @@ https://github.com/inha20/IOT_Class_review-/issues/5
 
 <details><summary>한 줄 요약
 </summary>
-➜ 항목1 <br>
+➜ DB서비스에 가상머신(클라우드)을 연결 후 Docker에 각각 이미지로 찍어 태우자. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;⤷ 설명1<br>
 &nbsp;&nbsp;&nbsp;&nbsp;⤷ 특정 부분 1 ; // 설명2<br>
 &nbsp;&nbsp;&nbsp;&nbsp;⤷ 특정 부분 2 ; // 설명3<br>
