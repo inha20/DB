@@ -11,11 +11,12 @@
 <details><summary>
 내보내기
 </summary>
+show variables like "secure_file_priv";<br>
 select * from dbstudent<br>
-into outfile "C:/Users/PC/dbstudent.csv"<br>
+into outfile "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/dbstudent.csv"<br>
 fields terminated by ","<br>
 enclosed by '"'<br>
-lines terminated by "\n"
+lines terminated by "\n";<br>
 </details>
 
 
