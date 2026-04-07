@@ -14,7 +14,7 @@ https://github.com/inha20/IOT_Class_review-/issues/5
 </details>
 
 
-> 키워드
+> 프로젝트
 
 
 <details><summary>한 줄 요약
