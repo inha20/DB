@@ -93,5 +93,6 @@ where b.division_code=1111;
 <details><summary> 
 예제2. IS NULL, DISTINCT
 </summary>
+select division_code, division_name from division where division_code not in(select distinct division_code from employee); <br>
 select a.division_code, a.division_name from division a left join employee b on a.division_code=b.division_code where b.division_code is null;
 </details>
