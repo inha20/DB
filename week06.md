@@ -2,7 +2,7 @@
 > 만들기
 <details><summary>한 줄 요약
 </summary>
-➜ 항목1 ; // 설명1.<br>
+➜ user_id int auto_increment primary key ; // 자동 증가.<br>
 ➜ 항목2 ; // 설명2.<br>
 </details>
 <details><summary>
