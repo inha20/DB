@@ -3,7 +3,7 @@
 <details><summary>키워드
 </summary>
 ➜ user_id int auto_increment primary key ; // 자동 증가.<br>
-➜ 항목2 ; // 설명2.<br>
+➜ alter table user add gender char(1) after name; ; // 테이블에 칼럼 추가.<br>
 </details>
 <details><summary>
 한 줄 요약
