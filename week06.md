@@ -30,6 +30,19 @@ ignore 1 rows;<br>
 
 </details>
 
+<details><summary>
+json 파일
+</summary>
+select JSON_OBJECT (<br>
+	"department", department,<br>
+    "student_number", student_number,<br>
+    "name", name,<br>
+    "grade", grade,<br>
+    "cell_phone", cell_phone,<br>
+    "email", email<br>
+) from dbstudent;<br>
+</details>
+
 > 프로젝트
 
 
