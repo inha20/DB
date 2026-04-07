@@ -9,7 +9,7 @@
 ➜ drop table user; truncate table user; // 삭제하기, 내용 버리기.<br>
 </details>
 <details><summary>
-한 줄 요약
+내보내기
 </summary>
 https://github.com/inha20/IOT_Class_review-/issues/5
 </details>
