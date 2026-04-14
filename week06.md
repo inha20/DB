@@ -76,5 +76,5 @@ from dbstudent;<br>
 
 <details><summary>키워드
 </summary>
-➜ constraint pk_info_employee2 primary key(emp_num) <br>
+➜ constraint pk_info_employee2 primary key(emp_num) ;-- unique<br>
 </details>
