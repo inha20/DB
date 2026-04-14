@@ -76,5 +76,5 @@ from dbstudent;<br>
 
 <details><summary>깃허브 할 일
 </summary>
-➜ DB서비스에 가상머신(클라우드)을 연결 후 Docker에 각각 이미지로 찍어 태우자. <br>
+➜ constraint pk_info_employee2 primary key(emp_num) <br>
 </details>
