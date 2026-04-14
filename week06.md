@@ -74,7 +74,7 @@ from dbstudent;<br>
 > 무결성
 
 
-<details><summary>깃허브 할 일
+<details><summary>키워드
 </summary>
 ➜ constraint pk_info_employee2 primary key(emp_num) <br>
 </details>
