@@ -46,6 +46,23 @@ select JSON_OBJECT (<br>
 ) from dbstudent;<br>
 </details>
 
+<details><summary>
+json 파일 내보내기
+</summary>
+select json_arrayagg(<br>
+	JSON_OBJECT (<br>
+	"department", department,<br>
+    "student_number", student_number,<br>
+    "name", name,<br>
+    "grade", grade,<br>
+    "cell_phone", cell_phone,<br>
+    "email", email<br>
+	)<br>
+)into outfile "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/dbstudent.json"
+from dbstudent;<br>
+</details>
+
+
 > 프로젝트
 
 
