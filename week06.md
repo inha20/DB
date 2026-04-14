@@ -8,6 +8,7 @@
 ➜ alter table user change gender gender enum("M", "F"); // 형식 변경 - 항목 제한.<br>
 ➜ drop table user; truncate table user; // 삭제하기, 내용 버리기.<br>
 </details>
+> 파일 다루기
 <details><summary>
 내보내기
 </summary>
