@@ -1,5 +1,5 @@
 # 시트 만들기
-> 만들기
+> 변경하기
 <details><summary>키워드
 </summary>
 ➜ user_id int auto_increment primary key ; // 자동 증가.<br>
