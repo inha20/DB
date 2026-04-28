@@ -6,6 +6,7 @@
 ➜ constraint chk_quantity check (quantity >= 1)<br>
 ➜ constraint chk_delivery_date check (delivery_date >= order_date); // 테이블 수준.<br>
 ➜ constraint chk_status check (status in ("ready","shipping","delivered","cancelled"))<br>
+</details>
 
 <details><summary>default
 </summary>
