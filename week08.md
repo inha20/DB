@@ -10,6 +10,6 @@
 
 <details><summary>default
 </summary>
-➜ quantity int not null default 1<br>
+➜ priority tinyint default 0, <br>
 ➜ order_status varchar(20) default "pending"<br>
 ➜ ordered_at datetime default now()<br>
