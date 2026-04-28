@@ -13,3 +13,4 @@
 ➜ priority tinyint default 0, <br>
 ➜ order_status varchar(20) default "pending"<br>
 ➜ ordered_at datetime default now()<br>
+➜ quantity int not null default 1<br>
