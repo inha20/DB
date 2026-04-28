@@ -20,5 +20,5 @@
 </summary>
 ➜ constraint pk_noOptBuseo_buseocode primary key (busecode)<br>
 ➜ constraint fk_noOptSawon_buseocode foreign key(buseocode) references noOtpBuseo(busecode)<br>
-➜ on delete cascade 
+➜ on delete cascade ; // 부모가 사라지면 자식도 같이 사라짐
 </details>
