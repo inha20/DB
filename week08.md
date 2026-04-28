@@ -13,4 +13,3 @@
 ➜ quantity int not null default 1<br>
 ➜ order_status varchar(20) default "pending"<br>
 ➜ ordered_at datetime default now()<br>
-➜ constraint chk_status check (status in ("ready","shipping","delivered","cancelled"))<br>
