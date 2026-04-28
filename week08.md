@@ -1,10 +1,10 @@
-# 시트 만들기
-> 변경하기
+# 무결성 이어서
+> 범위
 <details><summary>키워드
 </summary>
-➜ user_id int auto_increment primary key ; // 자동 증가.<br>
-➜ alter table user add gender char(1) after name; // 테이블에 칼럼 추가.<br>
-➜ alter table user change phone phone_number varchar(20); // 칼럼명, 형식 변경.<br>
-➜ alter table user change gender gender enum("M", "F"); // 형식 변경 - 항목 제한.<br>
+➜ age int check (age >= 19) ; // 칼럼 수준의 제약조건<br>
+➜ constraint chk_quantity check (quantity >= 1)<br>
+➜ constraint chk_delivery_date check (delivery_date >= order_date); // 테이블 수준.<br>
+➜ constraint chk_status check (status in ("ready","shipping","delivered","cancelled"))<br>
 ➜ drop table user; truncate table user; // 삭제하기, 내용 버리기.<br>
 </details>
