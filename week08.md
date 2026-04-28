@@ -16,7 +16,7 @@
 ➜ quantity int not null default 1<br>
 </details>
 
-<details><summary>foreign key(외래키:자식 테이블))
+<details><summary>foreign key(외래키:자식 테이블)
 </summary>
 ➜ priority tinyint default 0, <br>
 ➜ order_status varchar(20) default "pending"<br>
