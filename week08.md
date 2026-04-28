@@ -18,8 +18,6 @@
 
 <details><summary>foreign key(외래키:자식 테이블)
 </summary>
-➜ priority tinyint default 0, <br>
-➜ order_status varchar(20) default "pending"<br>
-➜ ordered_at datetime default now()<br>
-➜ quantity int not null default 1<br>
+➜ constraint pk_noOptBuseo_buseocode primary key (busecode)<br>
+➜ constraint fk_noOptSawon_buseocode foreign key(buseocode) references noOtpBuseo(busecode)<br>
 </details>
