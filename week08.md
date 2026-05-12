@@ -24,3 +24,14 @@
 ➜ on update cascade ; // 부모가 변경 자식도 같이 변경됨<br>
 ➜ no action, set null, restrict <br>
 </details>
+
+# 정규화
+
+<details><summary>문법
+</summary>
+➜primary key (student_id, course_code),<br>
+➜foreign key(course_code) references course (course_code))<br>
+➜ on delete cascade ; // 부모가 사라지면 자식도 같이 사라짐<br>
+➜ on update cascade ; // 부모가 변경 자식도 같이 변경됨<br>
+➜ no action, set null, restrict <br>
+</details>
