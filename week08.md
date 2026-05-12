@@ -32,6 +32,4 @@
 ➜primary key (student_id, course_code),<br>
 ➜foreign key(course_code) references course (course_code))<br>
 ➜order_date datetime default current_timestamp<br>
-➜ on update cascade ; // 부모가 변경 자식도 같이 변경됨<br>
-➜ no action, set null, restrict <br>
 </details>
