@@ -31,7 +31,7 @@
 </summary>
 ➜primary key (student_id, course_code),<br>
 ➜foreign key(course_code) references course (course_code))<br>
-➜ on delete cascade ; // 부모가 사라지면 자식도 같이 사라짐<br>
+➜order_date datetime default current_timestamp<br>
 ➜ on update cascade ; // 부모가 변경 자식도 같이 변경됨<br>
 ➜ no action, set null, restrict <br>
 </details>
