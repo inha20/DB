@@ -10,7 +10,9 @@
 
 <details><summary>주요문법
 </summary>
+	
 ```mysql
+
 delimiter // 
 create procedure usp_insert_product(
 	in p_id char(8),
@@ -23,5 +25,6 @@ begin
     values (p_id, p_name, p_price, p_quantity);
 end //
 delimiter ;
-  ```
+
+```
 </details>
