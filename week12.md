@@ -3,7 +3,7 @@
 <details><summary>문법
 </summary>
 ➜ price decimal(10,2) ; // 화폐. 10자리까지, 소수점 2째자리까지.<br>
-➜ <br>
+➜ call usp_insert_product("ep000003", "구글 픽셀 10a", 660000,1);<br>
 ➜ <br>
 ➜ <br>
 </details>
