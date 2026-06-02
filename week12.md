@@ -94,31 +94,8 @@ join orderss o on u.user_id=o.user_id;
 <details><summary>문법
 </summary>
 ➜ create index idx_book_title on books(title);<br>
+➜ show index from books;<br>
+➜ drop index idx_book_title on books;<br>
+➜ alter table books drop primary key;<br>
 </details>
 
-<details><summary>주요문법
-</summary>
-	
-```mysql
-create view v_order_details4 as select 
-	u.name as customer_name,
-    o.product_name,
-    o.price,
-    o.order_date
-from users u 
-join orderss o on u.user_id=o.user_id
-where u.name="방민경";
-
-```
-
-```mysql
-create or replace view v_order_details3 as select 
-	u.name as customer_name,
-    u.email,
-    o.product_name,
-    o.price,
-    o.order_date
-from users u 
-join orderss o on u.user_id=o.user_id;
-```
-</details>
