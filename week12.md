@@ -88,3 +88,40 @@ join orderss o on u.user_id=o.user_id;
 ```
 </details>
 
+
+# 인덱스
+
+<details><summary>문법
+</summary>
+➜ select * from v_order_details;<br>
+set sql_safe_updates = 0;<br>
+update v_order_details set price=36500 where product_name="무선 마우스"<br>
+➜ drop view v_order_details;<br>
+</details>
+
+<details><summary>주요문법
+</summary>
+	
+```mysql
+create view v_order_details4 as select 
+	u.name as customer_name,
+    o.product_name,
+    o.price,
+    o.order_date
+from users u 
+join orderss o on u.user_id=o.user_id
+where u.name="방민경";
+
+```
+
+```mysql
+create or replace view v_order_details3 as select 
+	u.name as customer_name,
+    u.email,
+    o.product_name,
+    o.price,
+    o.order_date
+from users u 
+join orderss o on u.user_id=o.user_id;
+```
+</details>
