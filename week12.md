@@ -103,10 +103,7 @@ join orderss o on u.user_id=o.user_id;
 
 <details><summary>문법
 </summary>
-➜ create index idx_book_title on books(title);<br>
-➜ show index from books;<br>
-➜ drop index idx_book_title on books;<br>
-➜ alter table books drop primary key;<br>
+➜ drop table if exists orders;
 </details>
 
 <details><summary>주요문법
@@ -121,6 +118,18 @@ rollback;
 ```
 
 ```mysql
-
+start transaction;
+insert into orders (id, item_name, price) values (1, "노트북", 1560000);
+savepoint point1;
+select * from orders;
+insert into orders (id, item_name, price) values (2, "마우스", 24000);
+savepoint point2;
+select * from orders;
+insert into orders (id, item_name, price) values (3, "키보드", 500);
+select * from orders;
+rollback to point2;
+select * from orders;
+commit;
+select * from orders;
 ```
 </details>
