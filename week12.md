@@ -108,3 +108,19 @@ join orderss o on u.user_id=o.user_id;
 ➜ drop index idx_book_title on books;<br>
 ➜ alter table books drop primary key;<br>
 </details>
+
+<details><summary>주요문법
+</summary>
+	
+```mysql
+start transaction;
+set sql_safe_updates=0;
+delete from division;
+delete from employee;
+rollback;
+```
+
+```mysql
+
+```
+</details>
