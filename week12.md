@@ -66,19 +66,13 @@ delimiter ;
 </summary>
 	
 ```mysql
-
-delimiter // 
-create procedure usp_insert_product(
-	in p_id char(8),
-    in p_name varchar(100),
-    in p_price decimal(10,2),
-    in p_quantity int
-)
-begin 
-	insert into product (id, name, price, quantity)
-    values (p_id, p_name, p_price, p_quantity);
-end //
-delimiter ;
+create view v_order_details as select 
+	u.name as customer_name,
+    o.product_name,
+    o.price,
+    o.order_date
+from users u
+join orderss o on u.user_id=o.user_id;
 
 ```
 
