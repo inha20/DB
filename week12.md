@@ -93,10 +93,7 @@ join orderss o on u.user_id=o.user_id;
 
 <details><summary>문법
 </summary>
-➜ select * from v_order_details;<br>
-set sql_safe_updates = 0;<br>
-update v_order_details set price=36500 where product_name="무선 마우스"<br>
-➜ drop view v_order_details;<br>
+➜ create index idx_book_title on books(title);<br>
 </details>
 
 <details><summary>주요문법
