@@ -99,3 +99,12 @@ join orderss o on u.user_id=o.user_id;
 ➜ alter table books drop primary key;<br>
 </details>
 
+# 트랜젝션
+
+<details><summary>문법
+</summary>
+➜ create index idx_book_title on books(title);<br>
+➜ show index from books;<br>
+➜ drop index idx_book_title on books;<br>
+➜ alter table books drop primary key;<br>
+</details>
