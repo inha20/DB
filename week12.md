@@ -55,7 +55,9 @@ delimiter ;
 
 <details><summary>문법
 </summary>
-➜ price decimal(10,2) ; // 화폐. 10자리까지, 소수점 2째자리까지.<br>
+➜ select * from v_order_details;<br>
+set SQL_SAFE_UPDATES = 0;<br>
+update v_order_details set price=36500 where product_name="무선 마우스"<br>
 ➜ call usp_insert_product("ep000003", "구글 픽셀 10a", 660000,1);<br>
 ➜ select * from product where name like concat ( '%',p_name, '%');<br>
 ➜ update product set quantity=quantity+deltaQuantity where id=p_id;<br>
