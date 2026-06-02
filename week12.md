@@ -59,9 +59,9 @@ delimiter ;
 set sql_safe_updates = 0;<br>
 update v_order_details set price=36500 where product_name="무선 마우스"<br>
 ➜ drop view v_order_details;<br>
-➜ select * from product where name like concat ( '%',p_name, '%');<br>
-➜ update product set quantity=quantity+deltaQuantity where id=p_id;<br>
-➜ delete from product where id=p_id;
+➜ <br>
+➜<br>
+➜ 
 </details>
 
 <details><summary>주요문법
